@@ -32,20 +32,10 @@ public class Main1 {
         //percabangan
         switch(pilihan){
             case 1 : //jika user memasukkan angka 1 maka program ini yang akan dijalankan
-                System.out.println("Anda memilih menghitung luas Lingkaran");
-                //user memasukkan jari-jari
-                System.out.print("Masukkan jari-jari : ");
-                luaslingkaran.r = input.nextDouble();
                 luaslingkaran.hitung1(); //memanggil method
-                System.out.println("Luas : "+luaslingkaran.luas); //menampilkan luas lingkaran
                 break;
             case 2 :
-                System.out.println("Anda memilih menghitung luas Persegi");
-                //user memasukkan sisi
-                System.out.print("Masukkan Sisi : ");
-                luaspersegi.s = input.nextDouble();
                 luaspersegi.hitung2(); //memanggil method
-                System.out.println("Luas : "+luaspersegi.luas); //menampilkan luas persegi
                 break;
             default : //jika angka yang dimasukkan user bukan angka 1 / 2 maka akan muncul kata dibawah ini
                 System.out.println("Angka yang anda masukkan salah. Masukkan angka 1/2");
